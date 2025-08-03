@@ -32,7 +32,7 @@ const Hero = () => {
             {...fadeInUp}
             transition={{ delay: 0.3 }}
           >
-            Hello, I'm
+            Hello, I&apos;m
           </motion.h1>
           <TypeAnimation
             className="text-[#256AF9] dark:text-[#FECE34]"

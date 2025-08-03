@@ -9,7 +9,6 @@ import {
   fadeIn,
   staggerContainer,
   cardHover,
-  cardHoverSmall,
 } from "@/utils/animations";
 
 export default function AboutPage() {
@@ -19,7 +18,7 @@ export default function AboutPage() {
         className="text-4xl font-bold mb-8 text-center"
         {...fadeInDown}
       >
-        Tentang Aku
+        About Me
       </motion.h1>
       <motion.section className="mb-16" {...fadeInUp}>
         <p className="text-lg dark:text-[#dbdbdb]/75 text-[#404B50] max-w-3xl mx-auto text-center">
