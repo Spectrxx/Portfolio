@@ -74,6 +74,41 @@ export default function AboutPage() {
       </motion.section>
       <motion.section className="mb-16" {...fadeIn} transition={{ delay: 0.6 }}>
         <motion.h2 className="section-title" {...fadeInUp}>
+          Work Experience
+        </motion.h2>
+        <motion.div
+          className="max-w-3xl mx-auto space-y-8"
+          variants={staggerContainer}
+          initial="initial"
+          animate="animate"
+        >
+          <div className="bg-white dark:bg-black border border-white/40 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2">
+              Freelance - Fullstack Developer
+            </h3>
+            <p className="text-[#256AF9] dark:text-[#FECC34] mb-2">
+              Maret 2025 - Now
+            </p>
+            <ul className="text-[#404B50] dark:text-[#dbdbdb]/75 space-y-1">
+              <li className="grid grid-cols-[60px_10px_1fr] items-start gap-x-2">
+                <span>Deskripsi</span>
+                <span className="text-center">:</span>
+                <span>
+                  • Mengembangkan situs web galeri seni menggunakan Next.js &
+                  Strapi. <br />
+                  • Mengintegrasikan Cloudinary untuk manajemen media guna
+                  mengoptimalkan kinerja. <br />
+                  • Membuat sistem panel admin sederhana untuk mengelola karya
+                  seni. <br />• Bekerja langsung dengan klien untuk menentukan
+                  persyaratan dan jadwal.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </motion.div>
+      </motion.section>
+      <motion.section className="mb-16" {...fadeIn} transition={{ delay: 0.6 }}>
+        <motion.h2 className="section-title" {...fadeInUp}>
           Education
         </motion.h2>
         <motion.div
